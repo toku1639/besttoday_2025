@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Today</title>
+    <link href="css/font.css" rel="stylesheet" type="text/css">
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="header" class="">
+            <div class="header_set">
+                <div class="header_left">
+                    <a class="header_logo" href="">
+                        <img src="img/header_logo.png" alt="BestToday">
+                    </a>
+                </div>
+                <div class="header_menu">
+                    <a class="headmenu_a" href="#solution">
+                        <div class="headmenu_shape">
+                            <div class="headmenu_cap">課題解決</div>
+                            <div class="headmenu_uline"></div>
+                        </div>
+                    </a>
+                    <a class="headmenu_a" href="#reason">
+                        <div class="headmenu_shape">
+                            <div class="headmenu_cap">特徴</div>
+                            <div class="headmenu_uline"></div>
+                        </div>
+                    </a>
+                    <a class="headmenu_a" href="#case">
+                        <div class="headmenu_shape">
+                            <div class="headmenu_cap">導入事例</div>
+                            <div class="headmenu_uline"></div>
+                        </div>
+                    </a>
+                    <a class="headmenu_a" href="#comparsion">
+                        <div class="headmenu_shape">
+                            <div class="headmenu_cap">他社比較</div>
+                            <div class="headmenu_uline"></div>
+                        </div>
+                    </a>
+                    <a class="headmenu_a" href="#flow">
+                        <div class="headmenu_shape">
+                            <div class="headmenu_cap">導入の流れ</div>
+                            <div class="headmenu_uline"></div>
+                        </div>
+                    </a>
+                    <a class="headmenu_a" href="#faq">
+                        <div class="headmenu_shape">
+                            <div class="headmenu_cap">FAQ</div>
+                            <div class="headmenu_uline"></div>
+                        </div>
+                    </a>
+                    <a class="headmenu_a headmenu_download" href="#contact">
+                        <div class="headmenu_shape">
+                            <svg viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 16.5C4.10217 16.5 3.72064 16.342 3.43933 16.0606C3.15803 15.7794 3 15.3979 3 15V3C3 2.60218 3.15803 2.22065 3.43933 1.93934C3.72064 1.65804 4.10217 1.50001 4.5 1.50001H10.5C10.7374 1.49961 10.9726 1.5462 11.1919 1.63708C11.4112 1.72795 11.6104 1.86132 11.778 2.0295L14.469 4.7205C14.6376 4.88814 14.7714 5.08751 14.8625 5.30712C14.9536 5.52673 15.0004 5.76223 15 6.00001V15C15 15.3979 14.842 15.7794 14.5606 16.0606C14.2794 16.342 13.8978 16.5 13.5 16.5H4.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10.5 1.5V5.25C10.5 5.44891 10.579 5.63968 10.7197 5.78033C10.8603 5.92099 11.0511 6 11.25 6H15" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M7.50001 6.75H6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 9.75H6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 12.75H6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <div class="headmenu_cap">
+                                資料ダウンロード
+                            </div>
+                        </div>
+                    </a>
+                    <a class="headmenu_a headmenu_contact" href="#contact">
+                        <div class="headmenu_shape">
+                            <svg viewBox="0 0 18 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_413_74)">
+                                    <path
+                                        d="M16.5 12.75C16.5 13.1479 16.342 13.5294 16.0606 13.8106C15.7794 14.092 15.3979 14.25 15 14.25H5.121C4.72321 14.25 4.34174 14.4082 4.0605 14.6895L2.409 16.341C2.33454 16.4154 2.23965 16.4662 2.13637 16.4867C2.03308 16.5072 1.92603 16.4967 1.82874 16.4564C1.73145 16.4161 1.64829 16.3478 1.58976 16.2603C1.53125 16.1728 1.50002 16.0698 1.5 15.9645V3.75C1.5 3.35217 1.65804 2.97064 1.93935 2.68934C2.22065 2.40804 2.60217 2.25 3.00001 2.25H15C15.3979 2.25 15.7794 2.40804 16.0606 2.68934C16.342 2.97064 16.5 3.35217 16.5 3.75V12.75Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_413_74">
+                                        <rect width="18" height="18" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <div class="headmenu_cap">無料で相談する</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="hamburger_set js_hamburger">
+                    <a href="javascript:void(0)">
+                        <div class="hamburger_btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main class="contents">
+            <section class="banner">
+                <div class="banner_wrap">
+                    <div class="banner_content">
+                        <div class="banner_main">
+                            <div class="banner_txt">
+                                <div class="banner_catch">
+                                    <p class="banner_subTtl">DXとシステム刷新を同時に実現</p>
+                                    <h1 class="banner_ttl">"ちょうどいいシステム"なら<span>FileMaker<span></span></h1>
+                                </div>
+                                <div class="banner_lead">
+                                    <p>高機能すぎず、足りなくもない。<br />貴社の業務プロセスに"ジャストフィット"する<br class="sp_break" />システムを構築します。</p>
+                                </div>
+                            </div>
+                            <div class="banner_mark">
+                                <span class="mark">
+                                    <img src="img/cp_mark.png" alt="Claris 認定パートナー">
+                                </span>
+                                <span class="txt">
+                                    Claris 認定パートナー
+                                </span>
+                            </div>
+                            <div class="banner_badge-list">
+                                <div class="banner_badge">
+                                    <span class="check">
+                                        <img src="img/check.png" alt="">
+                                    </span>
+                                    <span class="txt">開発〜運用まで<br class="sp_hide" />一気通貫</span>
+                                </div>
+                                <div class="banner_badge">
+                                    <span class="check">
+                                        <img src="img/check.png" alt="">
+                                    </span>
+                                    <span class="txt">UI/UX設計対応</span>
+                                </div>
+                                <div class="banner_badge">
+                                    <span class="check">
+                                        <img src="img/check.png" alt="">
+                                    </span>
+                                    <span class="txt">柔軟なカスタマイズ</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner_img">
+                            <img src="img/banner_img.png" alt="">
+                        </div>
+                    </div>
+                    <div class="banner_btn-list">
+                        <a class="cta_btn downloadCta_btn" href="#contact">
+                            <p class="ctaBtn_ttl">1分で分かるサービス資料</p>
+                            <div class="ctaBtn_main">
+                                <svg class="ctaBtn_shape" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.5 16.5C4.10217 16.5 3.72064 16.342 3.43933 16.0606C3.15803 15.7794 3 15.3979 3 15V3C3 2.60218 3.15803 2.22064 3.43933 1.93934C3.72064 1.65803 4.10217 1.5 4.5 1.5H10.5C10.7374 1.49961 10.9726 1.54619 11.1919 1.63707C11.4112 1.72795 11.6104 1.86132 11.778 2.02949L14.469 4.7205C14.6376 4.88813 14.7714 5.0875 14.8625 5.30712C14.9536 5.52673 15.0004 5.76222 15 6V15C15 15.3979 14.842 15.7794 14.5606 16.0606C14.2794 16.342 13.8978 16.5 13.5 16.5H4.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.5 1.5V5.25001C10.5 5.44892 10.579 5.63968 10.7197 5.78033C10.8603 5.92099 11.0511 6 11.25 6H15" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M7.50001 6.75H6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12 9.75H6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12 12.75H6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span class="txt">資料ダウンロード</span>
+                            </div>
+                        </a>
+                        <a class="cta_btn contactCta_btn" href="#contact">
+                            <p class="ctaBtn_ttl">最短3営業日でお見積もり提出</p>
+                            <div class="ctaBtn_main">
+                                <svg class="ctaBtn_shape" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.5 12.75C16.5 13.1479 16.342 13.5294 16.0606 13.8106C15.7794 14.092 15.3979 14.25 15 14.25H5.121C4.72321 14.25 4.34174 14.4082 4.0605 14.6895L2.409 16.341C2.33454 16.4154 2.23965 16.4662 2.13637 16.4867C2.03308 16.5072 1.92603 16.4967 1.82874 16.4564C1.73145 16.4161 1.64829 16.3478 1.58976 16.2603C1.53125 16.1728 1.50002 16.0698 1.5 15.9645V3.75C1.5 3.35217 1.65804 2.97064 1.93935 2.68934C2.22065 2.40804 2.60217 2.25 3.00001 2.25H15C15.3979 2.25 15.7794 2.40804 16.0606 2.68934C16.342 2.97064 16.5 3.35217 16.5 3.75V12.75Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span class="txt">無料で相談する</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="banner_bg">
+                    <img src="img/banner_bg.png" alt="">
+                </div>
+            </section>
+            <div class="homeMain">
+                <section class="problem">
+                    <div class="hx10"></div>
+                    <div class="container">
+                        <div class="problem_inner">
+                            <div class="sec_heading">
+                                <p class="sec_ttl-en">PROBLEM</p>
+                                <h2 class="sec_ttl-jp">従来のシステム、<br class="sp_break" />こんな不便を感じていませんか？</h2>
+                            </div>
+                            <div class="problem_lead">
+                                長年使ってきたシステムが、<br class="sp_break" />今の業務や環境に合わなくなっていませんか？<br />
+                                <strong>「もう少し柔軟に変更できたら」</strong>　<br class="sp_break" /><strong>「サポートがなくて困っている」</strong><br />
+                                そんな課題を抱える企業様が増えています。
+                            </div>
+                            <div class="problem_content">
+                                <div class="problem_item">
+                                    <div class="problem_img">
+                                        <img src="img/problem_img01.jpg" alt="OSの変更により、システムが動かなくなってしまった">
+                                    </div>
+                                    <div class="problem_ttl">
+                                        <p>OSの変更により、<br />システムが動かなくなってしまった</p>
+                                    </div>
+                                </div>
+                                <div class="problem_item">
+                                    <div class="problem_img">
+                                        <img src="img/problem_img02.jpg" alt="古いシステムのUIが使いづらく、社員に定着しない">
+                                    </div>
+                                    <div class="problem_ttl">
+                                        <p>古いシステムのUIが使いづらく、<br />社員に定着しない</p>
+                                    </div>
+                                </div>
+                                <div class="problem_item">
+                                    <div class="problem_img">
+                                        <img src="img/problem_img03.jpg" alt="業務フローが変わっても、システムを変更できない">
+                                    </div>
+                                    <div class="problem_ttl">
+                                        <p>業務フローが変わっても、<br />システムを変更できない</p>
+                                    </div>
+                                </div>
+                                <div class="problem_item">
+                                    <div class="problem_img">
+                                        <img src="img/problem_img04.jpg" alt="ベンダーが撤退し、サポートを受けられない">
+                                    </div>
+                                    <div class="problem_ttl">
+                                        <p>ベンダーが撤退し、<br />サポートを受けられない</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hx12"></div>
+                </section>
+                <section class="solution" id="solution">
+                    <div class="hx6"></div>
+                    <div class="container">
+                        <div class="solution_inner">
+                            <div class="sec_heading">
+                                <p class="sec_ttl-en">SOLUTION</p>
+                                <h2 class="sec_ttl-jp"><span class="bolder">FileMaker</span>なら<br />業務にフィットした“再構築”が可能</h2>
+                                <p class="sec_lead"><span class="bolder">FileMaker</span>は、既存システムの課題をスムーズに解消し、現場に合わせて“最適な形”でシステムを再構築できます。</p>
+                            </div>
+                            <div class="solution_content">
+                                <div class="solution_item">
+                                    <div class="solution_imgWrap">
+                                        <div class="solution_img">
+                                            <img src="img/solution_img01.png" alt="集計作業・管理が容易">
+                                        </div>
+                                        <div class="solution_outline">
+                                            <span class="solution_icon">
+                                                <img src="img/solution_icon01.png" alt="">
+                                            </span>
+                                            集計作業・管理が容易
+                                        </div>
+                                    </div>
+                                    <div class="solution_txt">
+                                        <p>Excelで煩雑だった集計作業を自動化し、入力ミスや手戻りを大幅削減。誰でも簡単に正確なデータ管理が可能になります。</p>
+                                    </div>
+                                </div>
+                                <div class="solution_item">
+                                    <div class="solution_imgWrap">
+                                        <div class="solution_img">
+                                            <img src="img/solution_img02.png" alt="様々なOSで活用可能">
+                                        </div>
+                                        <div class="solution_outline">
+                                            <span class="solution_icon">
+                                                <img src="img/solution_icon02.png" alt="">
+                                            </span>
+                                            様々なOSで活用可能
+                                        </div>
+                                    </div>
+                                    <div class="solution_txt">
+                                        <p>Windows・Mac・iPad・Webなど、環境を選ばず利用可能。現場とオフィスをつなぐ統一された業務システムを構築できます。</p>
+                                    </div>
+                                </div>
+                                <div class="solution_item">
+                                    <div class="solution_imgWrap">
+                                        <div class="solution_img">
+                                            <img src="img/solution_img03.png" alt="自由自在のカスタマイズ">
+                                        </div>
+                                        <div class="solution_outline">
+                                            <span class="solution_icon">
+                                                <img src="img/solution_icon03.png" alt="">
+                                            </span>
+                                            自由自在のカスタマイズ
+                                        </div>
+                                    </div>
+                                    <div class="solution_txt">
+                                        <p>業務の変化に合わせて画面や項目を柔軟に変更可能。自社専用システムのように成長し続ける運用が実現できます。</p>
+                                    </div>
+                                </div>
+                                <div class="solution_item">
+                                    <div class="solution_imgWrap">
+                                        <div class="solution_img">
+                                            <img src="img/solution_img04.png" alt="ローコード仕様">
+                                        </div>
+                                        <div class="solution_outline">
+                                            <span class="solution_icon">
+                                                <img src="img/solution_icon04.png" alt="">
+                                            </span>
+                                            ローコード仕様
+                                        </div>
+                                    </div>
+                                    <div class="solution_txt">
+                                        <p>複雑な要件もローコードで素早く実装。外注依存から脱却し、スピーディな改善サイクルを自社で回せるようになります。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="solution_function">
+                                <div class="function_main">
+                                    <span class="function_badge">NEW</span>
+                                    <h3 class="function_ttl">AI機能の統合も可能</h3>
+                                    <p class="function_list">FileMakerは外部APIとの接続が容易なため、ChatGPTなどのAI機能を業務システムに組み込むことも可能。データ入力の自動化や問い合わせ応答など、業務効率化の幅が広がります。</p>
+                                    <div class="function_list">
+                                        <span>自動データ入力</span>
+                                        <span>文書作成支援</span>
+                                        <span>チャットボット</span>
+                                        <span>データ分析</span>
+                                    </div>
+                                </div>
+                                <div class="function_img">
+                                    <img src="img/function_img.png" alt="AI機能の統合も可能">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hx6"></div>
+                </section>
+                <section class="cta">
+                    <div class="hx8"></div>
+                    <div class="container">
+                        <div class="cta_inner">
+                            <div class="ctaBtn_list">
+                                <a class="cta_btn downloadCta_btn" href="#contact">
+                                    <p class="ctaBtn_ttl">1分で分かるサービス資料</p>
+                                    <div class="ctaBtn_main">
+                                        <svg class="ctaBtn_shape" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.5 16.5C4.10217 16.5 3.72064 16.342 3.43933 16.0606C3.15803 15.7794 3 15.3979 3 15V3C3 2.60218 3.15803 2.22064 3.43933 1.93934C3.72064 1.65803 4.10217 1.5 4.5 1.5H10.5C10.7374 1.49961 10.9726 1.54619 11.1919 1.63707C11.4112 1.72795 11.6104 1.86132 11.778 2.02949L14.469 4.7205C14.6376 4.88813 14.7714 5.0875 14.8625 5.30712C14.9536 5.52673 15.0004 5.76222 15 6V15C15 15.3979 14.842 15.7794 14.5606 16.0606C14.2794 16.342 13.8978 16.5 13.5 16.5H4.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.5 1.5V5.25001C10.5 5.44892 10.579 5.63968 10.7197 5.78033C10.8603 5.92099 11.0511 6 11.25 6H15" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M7.50001 6.75H6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M12 9.75H6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M12 12.75H6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        <span class="txt">資料ダウンロード</span>
+                                    </div>
+                                </a>
+                                <a class="cta_btn contactCta_btn" href="#contact">
+                                    <p class="ctaBtn_ttl">最短3営業日でお見積もり提出</p>
+                                    <div class="ctaBtn_main">
+                                        <svg class="ctaBtn_shape" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.5 12.75C16.5 13.1479 16.342 13.5294 16.0606 13.8106C15.7794 14.092 15.3979 14.25 15 14.25H5.121C4.72321 14.25 4.34174 14.4082 4.0605 14.6895L2.409 16.341C2.33454 16.4154 2.23965 16.4662 2.13637 16.4867C2.03308 16.5072 1.92603 16.4967 1.82874 16.4564C1.73145 16.4161 1.64829 16.3478 1.58976 16.2603C1.53125 16.1728 1.50002 16.0698 1.5 15.9645V3.75C1.5 3.35217 1.65804 2.97064 1.93935 2.68934C2.22065 2.40804 2.60217 2.25 3.00001 2.25H15C15.3979 2.25 15.7794 2.40804 16.0606 2.68934C16.342 2.97064 16.5 3.35217 16.5 3.75V12.75Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        <span class="txt">無料で相談する</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="cta_info">
+                                <p class="ctaPhone_ttl">電話でのお問い合わせ</p>
+                                <div class="ctaPhone_txt">
+                                    <a class="ctaPhone_number" href="tel: 05014221337">
+                                        <img src="img/phone_icon.png" alt="">
+                                        <span class="txt">050-1422-1337</span>
+                                    </a>
+                                    <p class="ctaInfo_time">（平日 10〜18時）</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hx6"></div>
+                </section>
+                <section class="reason" id="reason">
+                    <div class="hx8"></div>
+                    <div class="container">
+                        <div class="sec_inner">
+                            <div class="sec_heading">
+                                <p class="sec_ttl-en">WHY US</p>
+                                <h2 class="sec_ttl-jp">私たちが選ばれる理由</h2>
+                                <p class="sec_lead">単なる“システム開発”ではなく、「どうすれば業務がラクになるか」から一緒に考えるのが私たちのスタイルです。</p>
+                            </div>
+                            <div class="reason_content">
+                                <div class="reason_item">
+                                    <div class="reason_img">
+                                        <img src="img/reason_img01.png" alt="Claris公式パートナー">
+                                    </div>
+                                    <div class="reason_main">
+                                        <h3 class="reason_ttl">
+                                            Claris公式パートナー
+                                            <span class="reason_badge">認定企業</span>
+                                        </h3>
+                                        <p class="reason_txt">FileMakerの専門知識を持つ技術者が対応。最新技術と豊富な実績で確かな品質を提供します。Claris認定デベロッパーが在籍し、技術的な課題にも迅速に対応できる体制を整えています。</p>
+                                    </div>
+                                </div>
+                                <div class="reason_item">
+                                    <div class="reason_img">
+                                        <img src="img/reason_img02.png" alt="UI/UXデザイン対応">
+                                    </div>
+                                    <div class="reason_main">
+                                        <h3 class="reason_ttl">
+                                            UI/UXデザイン対応
+                                            <span class="reason_badge">デザイン</span>
+                                        </h3>
+                                        <p class="reason_txt">専任デザイナーが使いやすさを追求。現場に合わせた直感的な操作性を実現します。ユーザーテストを重ね、実際に使う方の声を反映したインターフェースを設計します。</p>
+                                    </div>
+                                </div>
+                                <div class="reason_item">
+                                    <div class="reason_img">
+                                        <img src="img/reason_img03.png" alt="小規模から始められる">
+                                    </div>
+                                    <div class="reason_main">
+                                        <h3 class="reason_ttl">
+                                            小規模から始められる
+                                            <span class="reason_badge">柔軟対応</span>
+                                        </h3>
+                                        <p class="reason_txt">「まずは一部業務だけ」などスモールスタートも可能。段階的な導入で無理なく移行できます。効果を実感しながら、必要に応じて機能拡張していくことができます。</p>
+                                    </div>
+                                </div>
+                                <div class="reason_item">
+                                    <div class="reason_img">
+                                        <img src="img/reason_img04.png" alt="開発～運用を一貫対応に変更">
+                                    </div>
+                                    <div class="reason_main">
+                                        <h3 class="reason_ttl">
+                                            開発～運用を一貫対応に変更
+                                            <span class="reason_badge">ワンストップ</span>
+                                        </h3>
+                                        <p class="reason_txt">要件整理から保守までワンストップ対応。担当が途中で変わることなく、一貫した品質を保ちます。長期的な視点でシステムの成長をサポートし続けます。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hx6"></div>
+                </section>
+                <section class="case" id="case">
+                    <div class="hx8"></div>
+                    <div class="sec_inner case_inner">
+                        <div class="sec_heading">
+                            <p class="sec_ttl-en">CASE STUDIES</p>
+                            <h2 class="sec_ttl-jp">導入実績</h2>
+                            <p class="sec_lead">様々な業界での豊富な実績</p>
+                        </div>
+                        <div class="case_content">
+                            <div class="case_item">
+                                <div class="case_img">
+                                    <img src="img/case_img01.png" alt="">
+                                </div>
+                                <div class="case_txt">
+                                    <p>
+                                        製造業<br />工程・在庫・品質管理など現場に合わせて柔軟に構築
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="case_item">
+                                <div class="case_img">
+                                    <img src="img/case_img02.png" alt="">
+                                </div>
+                                <div class="case_txt">
+                                    <p>
+                                        医療・クリニック<br />予約、カルテ、在庫管理など、医療現場の運用
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="case_item">
+                                <div class="case_img">
+                                    <img src="img/case_img03.png" alt="">
+                                </div>
+                                <div class="case_txt">
+                                    <p>
+                                        小売・店舗運営<br />在庫・顧客・発注管理を一元化し業務を効率化
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="case_item">
+                                <div class="case_img">
+                                    <img src="img/case_img04.png" alt="">
+                                </div>
+                                <div class="case_txt">
+                                    <p>
+                                        教育機関<br />生徒情報、出欠管理など、学校運営をスマートに改善
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="case_item">
+                                <div class="case_img">
+                                    <img src="img/case_img05.png" alt="">
+                                </div>
+                                <div class="case_txt">
+                                    <p>
+                                        サービス業<br />顧客管理・案件管理など、業務フローに柔軟対応
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="case_item">
+                                <div class="case_img">
+                                    <img src="img/case_img06.png" alt="">
+                                </div>
+                                <div class="case_txt">
+                                    <p>
+                                        農業・食品<br />出荷・ロット管理など、現場特有の管理にも対応
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="case_item">
+                                <div class="case_img">
+                                    <img src="img/case_img07.png" alt="">
+                                </div>
+                                <div class="case_txt">
+                                    <p>
+                                        物流・運送<br />配車・配送・車両管理などの業務をスマートに
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="case_item">
+                                <div class="case_img">
+                                    <img src="img/case_img08.png" alt="">
+                                </div>
+                                <div class="case_txt">
+                                    <p>
+                                        建設・不動産<br />現場入力や案件管理など、iPad活用と相性抜群
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hx6"></div>
+                </section>
+                <!-- <section class="studies">
+                    <div class="hx8"></div>
+                    <div class="container">
+                        <div class="sec_inner">
+                            <div class="sec_heading">
+                                <p class="sec_ttl-en">CASE STUDIES</p>
+                                <h2 class="sec_ttl-jp">導入実績</h2>
+                                <p class="sec_lead">様々な業界での豊富な実績</p>
+                            </div>
+                            <div class="studies_content">
+                                <div class="studies_item">
+                                    <div class="studies_img">
+                                        <img src="img/studies_img01.png" alt="">
+                                    </div>
+                                    <div class="studies_main">
+                                        <p class="studies_txt">
+                                            導入から3ヶ月で、Excel管理から完全移行。入力ミスが70％減少し、集計作業時間も1/4に。<br />
+                                            長年使っていたExcel台帳をFileMakerに統合することで、部門ごとにバラバラだった情報を一元管理。<br />
+                                            月次報告の準備時間が大きく短縮され、担当者の残業削減にもつながりました。
+                                        </p>
+                                        <div class="studies_user">
+                                            <div class="user_pic">
+                                                <img src="img/user_img01.png" alt="">
+                                            </div>
+                                            <div class="user_info">
+                                                <p class="user_name">株式会社　　　様</p>
+                                                <p class="user_industry">業種：物流業 / 業務改善担当</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="studies_item">
+                                    <div class="studies_img">
+                                        <img src="img/studies_img02.png" alt="">
+                                    </div>
+                                    <div class="studies_main">
+                                        <p class="studies_txt">
+                                            現場からタブレット入力を実現し、報告件数は2倍に。リアルタイムの見える化で意思決定もスピードアップ。<br />
+                                            これまで紙とメールで行っていた日報・点検報告を、FileMakerとiPadに置き換え。<br />
+                                            拠点ごとの進捗がリアルタイムに確認できるようになり、管理職の確認作業も大幅に効率化されました。
+                                        </p>
+                                        <div class="studies_user">
+                                            <div class="user_pic">
+                                                <img src="img/user_img02.png" alt="">
+                                            </div>
+                                            <div class="user_info">
+                                                <p class="user_name">株式会社　　　様</p>
+                                                <p class="user_industry">業種：サービス業</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="studies_item">
+                                    <div class="studies_img">
+                                        <img src="img/studies_img03.png" alt="">
+                                    </div>
+                                    <div class="studies_main">
+                                        <p class="studies_txt">
+                                            老朽化した基幹システムを段階的に置き換えたことでOS更新時のトラブルがゼロに。<br />
+                                            長年使っていたオンプレミスの独自システムを、FileMakerベースの仕組みに置き換えました。<br />
+                                            まずは一部業務からスモールスタートし、運用しながら機能を拡張することで、無理なく“ちょうどいい”システムへの移行を実現しました。
+                                       </p>
+                                        <div class="studies_user">
+                                            <div class="user_pic">
+                                                <img src="img/user_img03.png" alt="">
+                                            </div>
+                                            <div class="user_info">
+                                                <p class="user_name">株式会社　　　様</p>
+                                                <p class="user_industry">業種：コンサルティング / 専門サービス</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hx6"></div>
+                </section> -->
+                <section class="voice">
+                    <div class="hx8"></div>
+                    <div class="container">
+                        <div class="sec_inner">
+                            <div class="sec_heading">
+                                <p class="sec_ttl-en">VOICE</p>
+                                <h2 class="sec_ttl-jp">お客様の声</h2>
+                                <p class="sec_lead">導入企業様から喜びの声をいただいています</p>
+                            </div>
+                            <div class="voice_content">
+                                <div class="voice_item">
+                                    <div class="voice_img">
+                                        <img src="img/voice_img01.png" alt="田中 太郎 様">
+                                    </div>
+                                    <div class="voice_main">
+                                        <span class="voice_icon">
+                                            <svg viewBox="0 0 32 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.2" d="M0 25.8002V13.0002C0 5.9602 3.2 0.200195 9.6 0.200195V5.3202C5.76 5.3202 5.12 8.5202 5.12 13.0002H9.6V25.8002H0ZM16 25.8002V13.0002C16 5.9602 19.2 0.200195 25.6 0.200195V5.3202C21.76 5.3202 21.12 8.5202 21.12 13.0002H25.6V25.8002H16Z" fill="#026EB6"/>
+                                            </svg>
+                                        </span>
+                                        <p class="voice_txt">
+                                            前のシステムではOS更新のたびに不具合が出ていましたが、FileMakerに変えてから安定して動くようになりました。
+                                        </p>
+                                        <div class="voice_star">
+                                            <img src="img/voice_star.svg" alt="">
+                                        </div>
+                                        <div class="voice_info">
+                                            <span class="voice_name">田中 太郎 様</span>
+                                            <span class="voice_industry">製造業 / 情報システム部長</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="voice_item">
+                                    <div class="voice_img">
+                                        <img src="img/voice_img02.png" alt="佐藤 花子 様">
+                                    </div>
+                                    <div class="voice_main">
+                                        <span class="voice_icon">
+                                            <svg viewBox="0 0 32 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.2" d="M0 25.8002V13.0002C0 5.9602 3.2 0.200195 9.6 0.200195V5.3202C5.76 5.3202 5.12 8.5202 5.12 13.0002H9.6V25.8002H0ZM16 25.8002V13.0002C16 5.9602 19.2 0.200195 25.6 0.200195V5.3202C21.76 5.3202 21.12 8.5202 21.12 13.0002H25.6V25.8002H16Z" fill="#026EB6"/>
+                                            </svg>
+                                        </span>
+                                        <p class="voice_txt">
+                                            使う人のレベルに合わせたUI設計で、教育コストがほとんどかかりませんでした。
+                                        </p>
+                                        <div class="voice_star">
+                                            <img src="img/voice_star.svg" alt="">
+                                        </div>
+                                        <div class="voice_info">
+                                            <span class="voice_name">佐藤 花子 様</span>
+                                            <span class="voice_industry">小売業 / 店舗運営責任者</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="voice_item">
+                                    <div class="voice_img">
+                                        <img src="img/voice_img03.png" alt="鈴木 一郎 様">
+                                    </div>
+                                    <div class="voice_main">
+                                        <span class="voice_icon">
+                                            <svg viewBox="0 0 32 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.2" d="M0 25.8002V13.0002C0 5.9602 3.2 0.200195 9.6 0.200195V5.3202C5.76 5.3202 5.12 8.5202 5.12 13.0002H9.6V25.8002H0ZM16 25.8002V13.0002C16 5.9602 19.2 0.200195 25.6 0.200195V5.3202C21.76 5.3202 21.12 8.5202 21.12 13.0002H25.6V25.8002H16Z" fill="#026EB6"/>
+                                            </svg>
+                                        </span>
+                                        <p class="voice_txt">
+                                            要望を伝えるたびにすぐ反映してくれるので、現場に合う形を保てています。
+                                        </p>
+                                        <div class="voice_star">
+                                            <img src="img/voice_star.svg" alt="">
+                                        </div>
+                                        <div class="voice_info">
+                                            <span class="voice_name">鈴木 一郎 様</span>
+                                            <span class="voice_industry">物流業 / 業務改善担当</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hx10"></div>
+                </section>
+                <section class="cta">
+                    <div class="hx8"></div>
+                    <div class="container">
+                        <div class="cta_inner">
+                            <div class="ctaBtn_list">
+                                <a class="cta_btn downloadCta_btn" href="#contact">
+                                    <p class="ctaBtn_ttl">1分で分かるサービス資料</p>
+                                    <div class="ctaBtn_main">
+                                        <svg class="ctaBtn_shape" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.5 16.5C4.10217 16.5 3.72064 16.342 3.43933 16.0606C3.15803 15.7794 3 15.3979 3 15V3C3 2.60218 3.15803 2.22064 3.43933 1.93934C3.72064 1.65803 4.10217 1.5 4.5 1.5H10.5C10.7374 1.49961 10.9726 1.54619 11.1919 1.63707C11.4112 1.72795 11.6104 1.86132 11.778 2.02949L14.469 4.7205C14.6376 4.88813 14.7714 5.0875 14.8625 5.30712C14.9536 5.52673 15.0004 5.76222 15 6V15C15 15.3979 14.842 15.7794 14.5606 16.0606C14.2794 16.342 13.8978 16.5 13.5 16.5H4.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.5 1.5V5.25001C10.5 5.44892 10.579 5.63968 10.7197 5.78033C10.8603 5.92099 11.0511 6 11.25 6H15" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M7.50001 6.75H6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M12 9.75H6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M12 12.75H6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        <span class="txt">資料ダウンロード</span>
+                                    </div>
+                                </a>
+                                <a class="cta_btn contactCta_btn" href="#contact">
+                                    <p class="ctaBtn_ttl">最短3営業日でお見積もり提出</p>
+                                    <div class="ctaBtn_main">
+                                        <svg class="ctaBtn_shape" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.5 12.75C16.5 13.1479 16.342 13.5294 16.0606 13.8106C15.7794 14.092 15.3979 14.25 15 14.25H5.121C4.72321 14.25 4.34174 14.4082 4.0605 14.6895L2.409 16.341C2.33454 16.4154 2.23965 16.4662 2.13637 16.4867C2.03308 16.5072 1.92603 16.4967 1.82874 16.4564C1.73145 16.4161 1.64829 16.3478 1.58976 16.2603C1.53125 16.1728 1.50002 16.0698 1.5 15.9645V3.75C1.5 3.35217 1.65804 2.97064 1.93935 2.68934C2.22065 2.40804 2.60217 2.25 3.00001 2.25H15C15.3979 2.25 15.7794 2.40804 16.0606 2.68934C16.342 2.97064 16.5 3.35217 16.5 3.75V12.75Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        <span class="txt">無料で相談する</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="cta_info">
+                                <p class="ctaPhone_ttl">電話でのお問い合わせ</p>
+                                <div class="ctaPhone_txt">
+                                    <a class="ctaPhone_number" href="tel: 05014221337">
+                                        <img src="img/phone_icon.png" alt="">
+                                        <span class="txt">050-1422-1337</span>
+                                    </a>
+                                    <p class="ctaInfo_time">（平日 10〜18時）</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hx6"></div>
+                </section>
+                <section class="comparsion" id="comparsion">
+                    <div class="hx6"></div>
+                    <div class="container">
+                        <div class="comparsion_inner">
+                            <div class="sec_heading">
+                                <p class="sec_ttl-en">COMPARISON</p>
+                                <h2 class="sec_ttl-jp">他社製品との比較</h2>
+                                <p class="sec_lead">FileMakerの強みが一目で分かります</p>
+                            </div>
+                            <div class="comparsion_content">
+                                <table class="comparsion_table">
+                                    <thead>
+                                        <tr>
+                                            <th>項目</th>
+                                            <th>FileMaker</th>
+                                            <th>OutSystems</th>
+                                            <th>Microsoft<br />PowerApps</th>
+                                            <th>Kintone</th>
+                                            <th>TALON</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>導入のしやすさ</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="smaller_cell">〇</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="smaller_cell">〇</td>
+                                            <td class="smaller_cell">〇</td>
+                                        </tr>
+                                        <tr>
+                                            <td>カスタマイズの自由度</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="smaller_cell">〇</td>
+                                            <td class="smaller_cell">〇</td>
+                                            <td class="smaller_cell">〇</td>
+                                        </tr>
+                                        <tr>
+                                            <td>初期コスト</td>
+                                            <td>△</td>
+                                            <td>△</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="red_cell">◎</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ランニングコスト</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="smaller_cell">〇</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="smaller_cell">〇</td>
+                                            <td class="smaller_cell">〇</td>
+                                        </tr>
+                                        <tr>
+                                            <td>クラウド連携</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="smaller_cell">〇</td>
+                                            <td>△</td>
+                                        </tr>
+                                        <tr>
+                                            <td>データベース機能</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="smaller_cell">〇</td>
+                                            <td>△</td>
+                                            <td class="smaller_cell">〇</td>
+                                        </tr>
+                                        <tr>
+                                            <td>拡張性</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="red_cell">◎</td>
+                                            <td>△</td>
+                                            <td class="smaller_cell">〇</td>
+                                        </tr>
+                                        <tr>
+                                            <td>サポート体制</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="red_cell">◎</td>
+                                            <td>△</td>
+                                            <td class="smaller_cell">〇</td>
+                                        </tr>
+                                        <tr>
+                                            <td>モバイル対応</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="red_cell">◎</td>
+                                            <td class="smaller_cell">〇</td>
+                                            <td>△</td>
+                                        </tr>
+                                        <tr class="last_row">
+                                            <td>最適な利用シーン</td>
+                                            <td>中小企業、データ管理<br />業務効率化</td>
+                                            <td>大企業、複雑な<br />業務プロセス</td>
+                                            <td>既存のMicrosoft製品を<br />活用した業務</td>
+                                            <td>特定業務アプリの<br />簡単な構築</td>
+                                            <td>特定業務に特化した<br />システム構築</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p class="comparsion_outline">◎：優れている ○：良い △：普通</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hx8"></div>
+                </section>
+                <section class="flow" id="flow">
+                    <div class="hx8"></div>
+                    <div class="container">
+                        <div class="sec_inner">
+                            <div class="sec_heading">
+                                <p class="sec_ttl-en">FLOW</p>
+                                <h2 class="sec_ttl-jp">導入の流れ</h2>
+                                <p class="sec_lead">スムーズな導入をサポートします</p>
+                            </div>
+                            <div class="flow_content">
+                                <div class="flow_item">
+                                    <span class="flow_number">01</span>
+                                    <h3 class="flow_ttl">ヒアリング</h3>
+                                    <p class="flow_txt">現状の課題を詳しくお伺い</p>
+                                </div>
+                                <div class="flow_item">
+                                    <span class="flow_number">02</span>
+                                    <h3 class="flow_ttl">お見積もり</h3>
+                                    <p class="flow_txt">最適なプランをご提案</p>
+                                    <span class="flow_badge">ここまで無料</span>
+                                </div>
+                                <div class="flow_item">
+                                    <span class="flow_number">03</span>
+                                    <h3 class="flow_ttl">要件定義・開発</h3>
+                                    <p class="flow_txt">仕様を確定し開発開始</p>
+                                </div>
+                                <div class="flow_item">
+                                    <span class="flow_number">04</span>
+                                    <h3 class="flow_ttl">動作確認</h3>
+                                    <p class="flow_txt">テスト運用で検証</p>
+                                </div>
+                                <div class="flow_item">
+                                    <span class="flow_number">05</span>
+                                    <h3 class="flow_ttl">運用開始</h3>
+                                    <p class="flow_txt">本番稼働・保守開始</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hx15"></div>
+                </section>
+                <section class="support">
+                    <div class="hx8"></div>
+                    <div class="container">
+                        <div class="sec_inner">
+                            <div class="sec_heading">
+                                <p class="sec_ttl-en">SUPPORT</p>
+                                <h2 class="sec_ttl-jp">サポート体制</h2>
+                                <p class="sec_lead">導入後も安心してご利用いただけるよう、<br class="sp_break" />充実したサポートをご提供</p>
+                            </div>
+                            <div class="support_content">
+                                <div class="support_item">
+                                    <div class="support_shape">
+                                        <img src="img/support_icon01.png" alt="">
+                                    </div>
+                                    <h3 class="support_ttl">初期導入サポート</h3>
+                                    <div class="support_list">
+                                        <p class="support_txt">ライセンス提供</p>
+                                        <p class="support_txt">システム環境構築支援</p>
+                                        <p class="support_txt">データ移行・初期設定</p>
+                                        <p class="support_txt">操作研修（最大3回まで）</p>
+                                    </div>
+                                </div>
+                                <div class="support_item">
+                                    <div class="support_shape">
+                                        <img src="img/support_icon02.png" alt="">
+                                    </div>
+                                    <h3 class="support_ttl">運用サポート</h3>
+                                    <div class="support_list">
+                                        <p class="support_txt">クラウドサーバーの保守運用</p>
+                                        <p class="support_txt">電話・メールでの問い合わせ対応</p>
+                                        <p class="support_txt">定期メンテナンス（月1回）</p>
+                                        <p class="support_txt">バージョンアップ対応</p>
+                                    </div>
+                                </div>
+                                <div class="support_item">
+                                    <div class="support_shape">
+                                        <img src="img/support_icon03.png" alt="">
+                                    </div>
+                                    <h3 class="support_ttl">トラブル対応</h3>
+                                    <div class="support_list">
+                                        <p class="support_txt">緊急時の迅速対応（24時間以内）</p>
+                                        <p class="support_txt">障害復旧サポート</p>
+                                        <p class="support_txt">リモート接続での原因調査</p>
+                                    </div>
+                                </div>
+                                <div class="support_after">
+                                    <div class="after_main">
+                                        <h3 class="after_ttl">導入後も安心のサポート体制</h3>
+                                        <p class="after_lead">システムは導入して終わりではありません。運用開始後も、お客様の業務に寄り添い、継続的な改善をサポートします。</p>
+                                        <div class="support_list after_list">
+                                            <p class="support_txt">定期メンテナンス対応</p>
+                                            <p class="support_txt">機能追加・改修サポート</p>
+                                            <p class="support_txt">操作研修・マニュアル作成</p>
+                                            <p class="support_txt">トラブル時の迅速対応</p>
+                                            <p class="support_txt">運用改善提案</p>
+                                        </div>
+                                    </div>
+                                    <div class="after_img">
+                                        <img src="img/support_img.png" alt="導入後も安心のサポート体制">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hx5"></div>
+                </section>
+                <section class="pricing">
+                    <div class="hx8"></div>
+                    <div class="container">
+                        <div class="pricing_inner">
+                            <div class="sec_heading">
+                                <p class="sec_ttl-en">PRICING</p>
+                                <h2 class="sec_ttl-jp">料金体制</h2>
+                                <p class="sec_lead">FileMaker製品のライセンスタイプをご用途に合わせてお選びいただけます</p>
+                            </div>
+                            <div class="pricing_content">
+                                <div class="pricing_item single_pricing">
+                                    <h3 class="pricing_ttl">シングルライセンス</h3>
+                                    <div class="pricing_detail">
+                                        <span>買取費用</span>
+                                    </div>
+                                    <div class="pricing_user">
+                                        <p class="user_cost">69,696円</p>
+                                        <span class="user_limit">買取費用のみ</span>
+                                    </div>
+                                    <div class="pricing_list">
+                                        <p class="pricing_txt">対象：個人 / 法人 / 団体</p>
+                                        <p class="pricing_txt">最小契約数：1本単位</p>
+                                        <p class="pricing_txt">アップグレード版購入可</p>
+                                        <p class="pricing_txt">FileMaker Pro</p>
+                                    </div>
+                                    <a class="pricing_btn" href="#contact">無料で相談する</a>
+                                </div>
+                                <div class="pricing_item volume_pricing">
+                                    <span class="pricing_badge">おすすめ</span>
+                                    <h3 class="pricing_ttl">ボリュームライセンス</h3>
+                                    <div class="pricing_detail">
+                                        <span>買取費用</span>
+                                        <span>年間利用料</span>
+                                    </div>
+                                    <div class="pricing_user">
+                                        <p class="user_cost">23,232円</p>
+                                        <span class="user_limit">年間利用料 / ユーザー</span>
+                                    </div>
+                                    <div class="pricing_list">
+                                        <p class="pricing_txt">対象：法人 / 団体</p>
+                                        <p class="pricing_txt">最小：5ユーザー / 25シート</p>
+                                        <p class="pricing_txt">契約中は最新版提供</p>
+                                        <p class="pricing_txt">FileMaker Pro他4製品</p>
+                                        <p class="pricing_txt">ボリューム割引あり</p>
+                                    </div>
+                                    <a class="pricing_btn" href="#contact">無料で相談する</a>
+                                </div>
+                                <div class="pricing_item cloud_pricing">
+                                    <h3 class="pricing_ttl">FileMaker Cloud</h3>
+                                    <div class="pricing_detail">
+                                        <span>年間利用料</span>
+                                    </div>
+                                    <div class="pricing_user">
+                                        <p class="user_cost">28,380円〜</p>
+                                        <span class="user_limit">年間利用料 / ユーザー</span>
+                                    </div>
+                                    <div class="pricing_list">
+                                        <p class="pricing_txt">対象：法人 / 団体</p>
+                                        <p class="pricing_txt">最小契約数：5ユーザー</p>
+                                        <p class="pricing_txt">契約中は最新版提供</p>
+                                        <p class="pricing_txt">クラウドベースの運用</p>
+                                        <p class="pricing_txt">FileMaker Cloud含む4製品</p>
+                                    </div>
+                                    <a class="pricing_btn" href="#contact">無料で相談する</a>
+                                </div>
+                            </div>
+                            <div class="pricing_include">
+                                <h3 class="include_ttl">料金に含まれるもの</h3>
+                                <div class="include_mian">
+                                    <div class="include_item">
+                                        <div class="include_label">初期費用</div>
+                                        <div class="inclue_list">
+                                            <p class="inclue_txt">
+                                                <span class="include_marker">•</span>
+                                                要件定義・システム設計
+                                            </p>
+                                            <p class="inclue_txt">
+                                                <span class="include_marker">•</span>
+                                                システム開発・実装
+                                            </p>
+                                            <p class="inclue_txt">
+                                                <span class="include_marker">•</span>
+                                                テスト・検証
+                                            </p>
+                                            <p class="inclue_txt">
+                                                <span class="include_marker">•</span>
+                                                データ移行支援
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="include_item">
+                                        <div class="include_label">月額費用</div>
+                                        <div class="inclue_list">
+                                            <p class="inclue_txt">
+                                                <span class="include_marker">•</span>
+                                                技術サポート対応
+                                            </p>
+                                            <p class="inclue_txt">
+                                                <span class="include_marker">•</span>
+                                                定期メンテナンス
+                                            </p>
+                                            <p class="inclue_txt">
+                                                <span class="include_marker">•</span>
+                                                軽微な修正・改善対応
+                                            </p>
+                                            <p class="inclue_txt">
+                                                <span class="include_marker">•</span>
+                                                FileMakerライセンス管理
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="inclue_warning">
+                                    ※ 上記価格は目安です。詳細なお見積もりは、お客様のご要望を伺った上でご提示いたします。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hx6"></div>
+                </section>
+                <section class="faq" id="faq">
+                    <div class="hx8"></div>
+                    <div class="container">
+                        <div class="sec_inner">
+                            <div class="sec_heading">
+                                <p class="sec_ttl-en">FAQ</p>
+                                <h2 class="sec_ttl-jp">よくある質問</h2>
+                            </div>
+                            <div class="faq_content">
+                                <div class="faq_item">
+                                    <div class="faq_btn">
+                                        <p class="faq_query">業種を問わず開発可能ですか？</p>
+                                    </div>
+                                    <div class="faq_pannel">
+                                        <p class="faq_txt">はい、弊社は業種問わず、300社以上の開発・保守の実績がございます。</p>
+                                    </div>
+                                </div>
+                                <div class="faq_item">
+                                    <div class="faq_btn">
+                                        <p class="faq_query">開発後のサポートはありますか？</p>
+                                    </div>
+                                    <div class="faq_pannel">
+                                        <p class="faq_txt">はい、弊社は保守対応も行っておりますので、ご安心頂けます。</p>
+                                    </div>
+                                </div>
+                                <div class="faq_item">
+                                    <div class="faq_btn">
+                                        <p class="faq_query">開発から納品までの期間はどのくらいですか？</p>
+                                    </div>
+                                    <div class="faq_pannel">
+                                        <p class="faq_txt">要件にもよりますが、平均3〜5ヶ月で納品することが可能です。</p>
+                                    </div>
+                                </div>
+                                <div class="faq_item">
+                                    <div class="faq_btn">
+                                        <p class="faq_query">他のアプリケーションとは連携できますか？</p>
+                                    </div>
+                                    <div class="faq_pannel">
+                                        <p class="faq_txt">はい、可能です。Google、ChatWork、chatGPTなど幅広い連携が可能です。</p>
+                                    </div>
+                                </div>
+                                <div class="faq_item">
+                                    <div class="faq_btn">
+                                        <p class="faq_query">保守対応のみ依頼することはできますか？</p>
+                                    </div>
+                                    <div class="faq_pannel">
+                                        <p class="faq_txt">はい、可能です。要件の引き継ぎ資料なく保守を承ることができます。</p>
+                                    </div>
+                                </div>
+                                <div class="faq_item">
+                                    <div class="faq_btn">
+                                        <p class="faq_query">ExcelからFileMakerへの移行は可能ですか？</p>
+                                    </div>
+                                    <div class="faq_pannel">
+                                        <p class="faq_txt">はい、可能です。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hx8"></div>
+                </section>
+                <section class="contact" id="contact">
+                    <div class="hx8"></div>
+                    <div class="container">
+                        <div class="contact_inner">
+                            <div class="sec_heading">
+                                <p class="sec_ttl-en">CONTACT</p>
+                                <h2 class="sec_ttl-jp">お問い合わせ</h2>
+                                <p class="sec_lead">お気軽にご相談ください。最短1営業日で返信いたします。</p>
+                            </div>
+                            <div class="contact_content">
+                                <form class="contact_form" id="contact_form" name="contact_form" action="./thanks/index.php" method="post" enctype="multipart/form-data">
+                                    <div class="contact_formWrap">
+                                        <div class="form_row">
+                                            <div class="form_field">
+                                                <div class="field_label">会社名<span class="field_required">必須</span></div>
+                                                <div class="field_input">
+                                                    <input type="text" name="field1" placeholder="株式会社〇〇" required>
+                                                </div>
+                                            </div>
+                                            <div class="form_field">
+                                                <div class="field_label">担当者名<span class="field_required">必須</span></div>
+                                                <div class="field_input">
+                                                    <input type="text" name="field2" placeholder="山田 太郎" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form_row">
+                                            <div class="form_field">
+                                                <div class="field_label">電話番号<span class="field_required">必須</span></div>
+                                                <div class="field_input">
+                                                    <input type="text" name="field3" pattern="^(\d-?){9}\d$|^(\d-?){10}\d$" placeholder="03-1234-5678" required>
+                                                </div>
+                                            </div>
+                                            <div class="form_field">
+                                                <div class="field_label">メールアドレス<span class="field_required">必須</span></div>
+                                                <div class="field_input">
+                                                    <input type="email" name="field4" placeholder="example@company.co.jp" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form_row">
+                                            <div class="form_field">
+                                                <div class="field_label">お問い合わせ内容<span class="field_any">任意</span></div>
+                                                <div class="field_input">
+                                                    <textarea type="text" name="field5" placeholder="お問い合わせ内容をご記入ください"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="formBtn_list">
+                                            <input type="hidden" name="submit-confirm" value="submit-confirm" />
+                                            <button type="submit" class="download_submit" name="submit_btn" value="資料請求">
+                                                <svg class="btn_icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M3.99999 14.6663C3.64637 14.6663 3.30723 14.5259 3.05718 14.2758C2.80713 14.0258 2.66666 13.6866 2.66666 13.333V2.66634C2.66666 2.31272 2.80713 1.97358 3.05718 1.72353C3.30723 1.47349 3.64637 1.33301 3.99999 1.33301H9.33332C9.54436 1.33267 9.75338 1.37408 9.94834 1.45486C10.1433 1.53563 10.3204 1.65418 10.4693 1.80368L12.8613 4.19568C13.0112 4.34468 13.1301 4.52191 13.2111 4.71712C13.2921 4.91233 13.3337 5.12166 13.3333 5.33301V13.333C13.3333 13.6866 13.1928 14.0258 12.9428 14.2758C12.6927 14.5259 12.3536 14.6663 12 14.6663H3.99999Z" stroke="white" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M9.33334 1.33301V4.66634C9.33334 4.84315 9.40358 5.01272 9.52861 5.13775C9.65363 5.26277 9.8232 5.33301 10 5.33301H13.3333" stroke="white" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M6.66668 6H5.33334" stroke="white" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M10.6667 8.66699H5.33334" stroke="white" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M10.6667 11.333H5.33334" stroke="white" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                                資料請求
+                                            </button>
+                                            <button type="submit" class="contact_submit" name="submit_btn" value="無料相談を申し込む">
+                                                <svg class="btn_icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.6666 11.3333C14.6666 11.687 14.5262 12.0261 14.2761 12.2761C14.0261 12.5262 13.6869 12.6667 13.3333 12.6667H4.55198C4.19839 12.6667 3.8593 12.8073 3.60931 13.0573L2.14131 14.5253C2.07512 14.5915 1.99078 14.6366 1.89897 14.6548C1.80716 14.6731 1.712 14.6637 1.62552 14.6279C1.53903 14.5921 1.46511 14.5314 1.4131 14.4536C1.36109 14.3758 1.33333 14.2843 1.33331 14.1907V3.33333C1.33331 2.97971 1.47379 2.64057 1.72384 2.39052C1.97389 2.14048 2.31302 2 2.66665 2H13.3333C13.6869 2 14.0261 2.14048 14.2761 2.39052C14.5262 2.64057 14.6666 2.97971 14.6666 3.33333V11.3333Z" stroke="white" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                                無料相談を申し込む
+                                            </button>
+                                        </div>
+                                        <p class="contact_txt">
+                                            個人情報の取り扱いについては、<br class="sp_break" /><a href="#">プライバシーポリシー</a>をご確認ください。
+                                        </p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hx8"></div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="hx6"></div>
+            <div class="footer_inner">
+                <p class="footer_copy">© 2025 BestToday. All rights reserved.</p>
+                <ul class="footer_subNav">
+                    <li>
+                        <a class="subNav_link" href="#">プライバシーポリシー</a>
+                    </li>
+                    <li>
+                        <a class="subNav_link" href="#">利用規約</a>
+                    </li>
+                    <li>
+                        <a class="subNav_link" href="#">会社概要</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hx5"></div>
+        </footer>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                once: true,
+                disable: function() {
+                    var maxWidth = 450;
+                    return window.innerWidth < maxWidth;
+                }
+            });
+            document.querySelectorAll('.headmenu_a, .nav_link, .nav_btn, .cta_btn, .pricing_btn, .comparsion_btn').forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault(); // Prevent the default anchor behavior
+            
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+            
+                    if (targetElement) {
+                    const offset = 60; // Offset in pixels
+            
+                    const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+                    const offsetPosition = elementPosition - offset;
+            
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth' // Optional for smooth scrolling
+                    });
+                    }
+                });
+            });
+        </script>
+    </div>
+</body>
+
+</html>
