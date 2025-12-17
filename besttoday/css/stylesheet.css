@@ -277,6 +277,23 @@ img {
 
 /*#endregion RESET*/
 
+/* =========================================================
+   Comparison table rating (symbol + note)
+   ========================================================= */
+.comparsion_table .rating_symbol {
+    display: block;
+    line-height: 1;
+}
+
+.comparsion_table .rating_note {
+    display: block;
+    margin-top: 0.45em;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: #000 !important;
+    font-weight: 400;
+}
+
 /*#region pspander*/
 .pspander_header {
     cursor: pointer;
