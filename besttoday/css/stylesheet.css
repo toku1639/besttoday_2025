@@ -3859,7 +3859,7 @@ img {
     margin: 0 auto;
     background-color: var(--bg-white-color);
     border: 1px solid #0000001A;
-    box-shadow: 0px 25px 50px -12px #00000040;
+    box-shadow: 0px 25px 50px -12px #00000020;
     border-radius: var(--border-radius);
 }
 
