@@ -1816,6 +1816,18 @@ img {
     }
 }
 
+@media (max-width: 450px) {
+    .problem_content {
+        min-height: auto;
+        padding: 3rem 1.5rem;
+    }
+
+    .problem_illustration {
+        width: 15rem;
+        height: auto;
+    }
+}
+
 
 
 /* ---------section solution---------- */
@@ -2059,7 +2071,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 27rem;
+    width: 35rem;
     height: 6.5rem;
     font-size: var(--font-ms-size);
     font-weight: 600;
@@ -2690,8 +2702,8 @@ img {
 .voice_main {
     display: flex;
     flex-direction: column;
-    gap: 1.8rem;
-    padding: 3.3rem;
+    gap: 1.2rem;
+    padding: 2.2rem;
 }
 
 .voice_icon {
@@ -2715,7 +2727,7 @@ img {
 .voice_info {
     display: flex;
     flex-direction: column;
-    padding-top: 1.8rem;
+    padding-top: 1.2rem;
     border-top: 1px solid #F3F4F6;
 }
 
