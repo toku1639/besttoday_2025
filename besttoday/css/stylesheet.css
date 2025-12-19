@@ -8,7 +8,7 @@
     --headerH: 10rem;
     --bg-black-color: #000000;
     --bg-gray-color: #99A1AF;
-    --bg-whitegray-color: #F7FAFF;
+    --bg-whitegray-color: #ebf0f7;
     --bg-white-color: #FFFFFF;
     --bg-font-color: #2E3E55;
     --bg-blue-color: #026EB6;
@@ -1745,6 +1745,23 @@ img {
 
 
 /* ---------section problem---------- */
+.problem {
+    background-color: var(--bg-whitegray-color);
+    padding-bottom: calc(var(--pxunit)*0.5);
+}
+
+@media (max-width: 768px) {
+    .problem {
+        padding-bottom: calc(var(--pxunit)*3);
+    }
+}
+
+@media (max-width: 450px) {
+    .problem {
+        padding-bottom: calc(var(--pxunit)*2);
+    }
+}
+
 .problem_inner {
     display: flex;
     flex-direction: column;
@@ -1805,12 +1822,50 @@ img {
 }
 
 @media (max-width: 768px) {
+    .problem .hx12 {
+        display: none;
+    }
+
+    .solution .hx6 {
+        display: none;
+    }
+
+    .solution {
+        padding-top: 4rem;
+        padding-bottom: calc(var(--pxunit)*6);
+    }
+
+    .solution::before {
+        border-left: 8rem solid transparent;
+        border-right: 8rem solid transparent;
+        border-top: 3rem solid var(--bg-whitegray-color);
+    }
+
     .problem_content {
         gap: calc(var(--gap-unit)*2);
     }
 }
 
 @media (max-width: 450px) {
+    .problem .hx12 {
+        display: none;
+    }
+
+    .solution .hx6 {
+        display: none;
+    }
+
+    .solution {
+        padding-top: 3.5rem;
+        padding-bottom: calc(var(--pxunit)*4);
+    }
+
+    .solution::before {
+        border-left: 6rem solid transparent;
+        border-right: 6rem solid transparent;
+        border-top: 2.5rem solid var(--bg-whitegray-color);
+    }
+
     .problem_content {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -1832,7 +1887,29 @@ img {
 
 /* ---------section solution---------- */
 .solution {
-    background-color: var(--bg-whitegray-color);
+    position: relative;
+    background-color: var(--bg-white-color);
+    padding-top: 6rem;
+    padding-bottom: calc(var(--pxunit)*10);
+}
+
+.solution .hx6 {
+    display: none;
+}
+
+.solution::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 15rem solid transparent;
+    border-right: 15rem solid transparent;
+    border-top: 5rem solid var(--bg-whitegray-color);
+    border-bottom: 0;
+    z-index: 1;
 }
 
 .solution_inner {
